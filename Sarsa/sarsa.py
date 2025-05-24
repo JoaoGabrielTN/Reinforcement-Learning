@@ -6,7 +6,7 @@ Este módulo implementa o algoritmo de aprendizado por reforço Sarsa.
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'Envs')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Envs.GridWorlds import GridEnvironment
 import matplotlib.pyplot as plt

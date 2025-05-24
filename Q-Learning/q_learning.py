@@ -3,6 +3,10 @@ Implementação do algoritmo Q-Learning em Python
 
 Este módulo implementa o algoritmo de aprendizado por reforço Q-Learning.
 """
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Envs.GridWorlds import GridEnvironment
 import matplotlib.pyplot as plt
